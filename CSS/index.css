@@ -28,6 +28,7 @@ body {
     /* background-image: url('../Media/ai.webp'); */
     /* background-repeat: no-repeat; */
     /* background-attachment: local; */
+    /* overflow-x: hidden; */
 }
 
 h1 {
@@ -52,7 +53,7 @@ h1 {
     flex-direction: column;
     /* align-items: center; */
     /* padding: 0 1rem; */
-    width: 100vw;
+    width: 100%;
 
 }
 
