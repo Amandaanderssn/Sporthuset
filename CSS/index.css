@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* color: white; */
+    /* font-family: "Nanum Gothic Coding", serif; */
+    /* font-family: "Antic Didone", serif; */
+    /* font-family: "Dosis", sans-serif; */
+    /* font-family: "VT323", sans-serif; */
+    /* font-family: "Cutive Mono", monospace; */
+    /* font-family: "Oswald", sans-serif; */
+    font-style: normal;
+}
+
+:root {
+    --BodyColor: black;
+    --HeaderColor: white;
+    /* --GoldText: #D4AF37; */
+    /* --GoldText: #FDD017; */
+    --GoldText: rgb(216, 158, 48);
+
+}
+
+body {
+    /* background-color: #336ef6; */
+    /* background-color: #D4AF37; */
+    /* background-color: black; */
+    /* background-image: url('../Media/ai.webp'); */
+    /* background-image: url('../Media/ai.webp'); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: local; */
+}
+
+h1 {
+    font-size: 10rem;
+    text-shadow: 4px 3px 3px rgb(79, 79, 79);
+}
+
+
+
+.logo {
+    /* color: var(--HeaderColor); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding: 0 1rem; */
+    width: 100vw;
+
+}
+
+.mainHeader {
+    font-family: "VT323", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: fit-content;
+    margin: 0 1.5rem;
+
+}
+
+.headerText {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: absolute; */
+    /* top: 23rem; */
+    font-family: "VT323", sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    /* padding-top: 4rem; */
+    padding-top: 15rem;
+    padding-left: 4rem;
+    width: 100%;
+    height: auto;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: black; */
+    /* color: var(--HeaderColor); */
+
+}
+
+#h1TextColor {
+    color: var(--GoldText);
+}
+
+.headerText>h2 {
+    padding-left: 1rem;
+}
+
+#headerInfoText {
+    width: 40rem;
+    margin: 1rem;
+    /* margin-left: 1rem; */
+    font-size: medium;
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    /* background-color: rgba(255, 255, 255, 0.55); */
+    background-color: rgba(216, 157, 48, 0.555);
+    color: white;
+    padding: 1rem;
+
+}
+
+.headerPicture {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* z-index: -1; */
+    /* -webkit-filter: blur(2px); */
+    /* filter: opacity(2px); */
+    background-image: url('../Media/ai.webp');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-image: url('../Media/skiing.jpg'); */
+
+
+}
+
+.headerPicture>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2.5rem;
+    /* width: 90%; */
+    /* background-color: #D4AF37; */
+}
+
+.navbar>a {
+    border: 0;
+    /* background-color: black; */
+    /* background-color: white; */
+    color: var(--BodyColor);
+    font-size: 1rem;
+    /* margin-right: 1rem; */
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar>a:hover {
+    cursor: pointer;
+    /* background-color: #D4AF37; */
+    background-color: var(--GoldText);
+    color: var(--BodyColor);
+    /* background-color: lightyellow; */
+}
+
+.navbar>a:after {
+    background-color: var(--GoldText);
+}
+
+.headerPosition {
+    display: flex;
+}
+
+#infoBox {
+    font-family: "VT323", sans-serif;
+    /* height: fit-content; */
+    text-align: center;
+    /* border-radius: 10px; */
+    margin-top: 30rem;
+    padding: 5rem 1rem;
+    background-color: var(--GoldText);
+    width: 20rem;
+}
+
+#infoBox>p {
+    margin-top: 1rem;
+}
+
+#infoBox>h2 {
+    margin-top: 1rem;
+}
+
+#infoBox>h2>a {
+    text-decoration: none;
+    color: black;
+    top: 2rem;
+}
+
+#omSporthuset {
+    /* font-family: "Cutive Mono", monospace; */
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.positioningContentSection {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: -1rem;
+    width: 90vw;
+    margin: auto;
+}
+
+.contentSection {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.mainContent {
+    width: 100%;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 1rem;
+    font-family: "Cutive Mono", monospace;
+}
+
+.mainContent>p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#pictureDivs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#homePicture1 {
+    width: 49%;
+}
+
+.asideMenu {
+    width: 25%;
+    /* justify-content: center; */
+    padding: 1rem;
+    /* border-left: 1px solid black; */
+    font-family: "VT323", sans-serif;
+}
+
+.asideMenuButtons>button {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    color: var(--BodyColor);
+    background-color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.asideMenuButtons>button:hover {
+    cursor: pointer;
+    /* background-color: #D4AF37; */
+    background-color: var(--GoldText);
+    /* color: var(--BodyColor); */
+    /* background-color: lightyellow; */
+}
+
+.footerSection {
+    font-family: "VT323", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: black; */
+    padding-top: 1rem;
+    /* background-color: white; */
+    /* align-items: center; */
+    height: 10rem;
+    /* color: var(--HeaderColor); */
+}
+
+/* .footerSection>p {
+    background-color: #D4AF37;
+    background-color: var(--GoldText);
+    padding: 1rem;
+    border-radius: 5px;
+    height: 6rem;
+} */
+
+/* .footerSection>div {
+    background-color: #D4AF37;
+    background-color: var(--GoldText);
+    padding: 1rem;
+    border-radius: 5px;
+    height: 6rem;
+} */
+
+@media only screen and (max-width: 800px) {
+    .asideMenu {
+        display: none;
+    }
+
+    .mainContent {
+        width: 100%;
+    }
+}
